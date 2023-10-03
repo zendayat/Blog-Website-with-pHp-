@@ -319,7 +319,7 @@ footer{
 }
 .singlepost__container{
     width: var(--form-width);
-    background-color: var(--color-gray-900);
+    background-color: rgba(80, 6, 6, 0.664);
     padding: 1rem 2rem 3rem;
 }
 .singlepost__thumbnail{
@@ -329,6 +329,17 @@ footer{
 .singlepost p{
     margin-top: 1rem;
     line-height: 1.7;
+}
+.category__posts{
+    margin-top: 3rem;
+}
+.category_title{
+    height: 10rem;
+    margin-top: 4.5rem;
+    display: grid;
+    place-items: center;
+    background-color: rgba(71, 23, 23, 0.253);
+    color: white;
 }
 @media screen and (max-width:1024px) {
     .container{
