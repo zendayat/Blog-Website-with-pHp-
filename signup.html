@@ -1,10 +1,46 @@
-<section class="form__section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sign-up</title>
+</head>
+<body>
+  <nav>
+        <div class="container nav__container">
+             <a href="index.html" class="nav__logo">ZENCRAIZEE</a>
+             <ul class="nav__items">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+                <li class="nav__profile">
+                    <div class="avatar">
+                        <img src="images/Avatar.jpeg"/>
+                    </div>
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="logout.html">Log-out</a></li>
+                    </ul>
+             </ul>
+             <button id="open__nav-btn">
+                <i class="uil uil-bars"></i>
+             </button>
+             <button id="close__nav-btn">
+                <i class="uil uil-multiply"></i>
+             </button>
+        </div>
+    </nav>
+    <!-- END OF NAV -->
+  <section class="form__section">
   <div class="container form__section-container">
     <h2>Sign Up</h2>
     <div class="alert__message error">
       <p>This is an error message</p>
     </div>
-    <form action="">
+    <form action="" class="sign__form">
       <input type="text" placeholder="First Name" />
       <input type="text" placeholder="Last Name" />
       <input type="text" placeholder="Username" />
@@ -20,3 +56,6 @@
     </form>
   </div>
 </section>
+
+</body>
+</html>
