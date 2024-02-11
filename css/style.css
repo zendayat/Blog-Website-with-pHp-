@@ -363,7 +363,7 @@ footer{
 }
 .alert__message.success{
     background: var(--color-green-light);
-    color: var(--color-green);
+    color: rgb(3, 255, 3);
 }
 .input{
     background: #2c02022f;
@@ -373,6 +373,9 @@ footer{
     padding-bottom: 5px; */
     padding: 0.8rem 1.4rem;
     resize: none;
+}
+.form__section{
+    margin-top: 50px;
 }
 .form__section small{
     margin-top: 1rem;
