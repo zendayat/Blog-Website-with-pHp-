@@ -368,9 +368,32 @@ footer{
 .input{
     background: #2c02022f;
     border-radius: 30px;
-    padding-left: 10px;
+    /* padding-left: 10px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px; */
+    padding: 0.8rem 1.4rem;
+    resize: none;
+}
+.form__section small{
+    margin-top: 1rem;
+    display: block;
+}
+.form__section small a{
+    color: var(--color-red-light);
+}
+.form__control{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    background: var(--color-primary-light);
+    color: var(--color-white);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: var(--card-border-radius-1);
+    font-family: 600;
+    font-size: 0.8rem;
+    text-align: center;
 }
 @media screen and (max-width:1024px) {
     .container{
