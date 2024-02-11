@@ -365,6 +365,13 @@ footer{
     background: var(--color-green-light);
     color: var(--color-green);
 }
+.input{
+    background: #2c02022f;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 @media screen and (max-width:1024px) {
     .container{
         width: var(--container-width-md);
