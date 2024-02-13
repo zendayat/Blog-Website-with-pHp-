@@ -374,6 +374,15 @@ footer{
     padding: 0.8rem 1.4rem;
     resize: none;
 }
+.textarea{
+    background: #2c02022f;
+    border-radius: 10px;
+    /* padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    padding: 0.8rem 1.4rem;
+    resize: none;
+}
 .form__section{
     margin-top: 50px;
 }
