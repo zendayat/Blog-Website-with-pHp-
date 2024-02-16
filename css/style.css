@@ -367,12 +367,13 @@ footer{
 }
 .input{
     background: #2c02022f;
-    border-radius: 30px;
+    border-radius: 10px;
     /* padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px; */
     padding: 0.8rem 1.4rem;
     resize: none;
+    width: 100%;
 }
 .textarea{
     background: #2c02022f;
@@ -406,6 +407,16 @@ footer{
     font-family: 600;
     font-size: 0.8rem;
     text-align: center;
+}
+.form__control{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.form__control.inline{
+    flex-direction: row;
+    align-items: center;
 }
 @media screen and (max-width:1024px) {
     .container{

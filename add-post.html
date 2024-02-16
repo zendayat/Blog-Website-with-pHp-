@@ -47,9 +47,17 @@
         <option value="4" class="input"></option>
         <option value="5" class="input"></option>
       </select>
-      <textarea placeholder="Body" rows="10"  class="textarea" required></textarea>
       
-      <button type="submit" class="btn">Add Category</button>
+      <textarea placeholder="Body" rows="10"  class="textarea" required></textarea>
+      <div class="form__control inline">
+        <input type="checkbox" name="" id="is_featured">
+        <label for="is_featured" checked>Featured</label>
+      </div>
+      <div class="form__control">
+        <label for="thumbnail">Add Thumbnail</label>
+        <input type="file" id="thumbnail" class="input">
+      </div>
+      <button type="submit" class="btn">Add Post</button>
     </form>
   </div>
 </section>
