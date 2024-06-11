@@ -418,6 +418,14 @@ footer{
     flex-direction: row;
     align-items: center;
 }
+
+        /* EMPTY PAGE */
+
+.empty__page{
+    height: 70vh;
+    display: grid;
+    place-content: center;
+}
 @media screen and (max-width:1024px) {
     .container{
         width: var(--container-width-md);
